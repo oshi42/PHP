@@ -7,12 +7,12 @@
 # Функция возвращает массив со словами.
 #
 
-$text  = 'В мире множество длинных людей. Длина абстрактна. Длинношеее - это кто?';
-$count = 3;
+# $text  = 'В мире множество длинных людей. Длина абстрактна. Длинношеее - это кто?';
+# $count = 3;
 
-unknown1($text, $count);
+# print_r(get_words_repeated_letters($text, $count));
 
-function unknown1($__text, $__count) {
+function get_words_repeated_letters($__text, $__count) {
     // Разделим текст на слова
     preg_match_all('/\w+\b/ui', $__text, $matches);
     $resArr = array();
