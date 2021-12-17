@@ -1,5 +1,3 @@
-Пока еще shmd прогает лучше нас, но это лишь дело времени
+now->best_progger = 'shor.md';
 
-Воспользуемся его добротой, догоним и обгоним его в скиле php
-
-my name oleg.
+at_future->best_progger = 'olezha';
