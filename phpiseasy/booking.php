@@ -11,10 +11,6 @@
 # Функция возвращает номер комнаты, 
 # если искомая имеется или false в случае некорректного формата времени.
 
-$__twoDates = '03.01.2018 - 05.01.2018';
-print_r(unpack_date($__twoDates));
-
-
 function unpack_date($__twoDates)
 {
     preg_match('/(.+) - (.+)/', $__twoDates, $matches);
